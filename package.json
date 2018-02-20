@@ -1,0 +1,26 @@
+{
+  "name": "koa-ok",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "server",
+    "ping",
+    "health",
+    "route"
+  ],
+  "author": "Mark Rickerby",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digivizer/koa-ok"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
