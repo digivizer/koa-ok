@@ -1,7 +1,7 @@
 {
   "name": "koa-ok",
   "version": "0.1.0",
-  "description": "",
+  "description": "Koa middleware for surfacing a health check ping route",
   "main": "index.js",
   "scripts": {
     "test": "ava"
