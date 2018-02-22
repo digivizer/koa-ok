@@ -1,12 +1,12 @@
 const test = require('ava')
 const ok = require('./index')
 
-test('response body', t => {
+test('default path and response', t => {
   const ctx = {
     path: '/ping'
   }
 
-  ok('/ping')(ctx, () => {})
+  ok('/ping')(ctx, () => t.fail())
 
   t.is(ctx.body, 'OK')
 })
@@ -16,5 +16,5 @@ test('skip to next', t => {
     path: '/'
   }
 
-  ok('/ping')(ctx, () => t.pass())
+  ok()(ctx, () => t.pass())
 })
