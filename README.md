@@ -1,4 +1,7 @@
-# Koa Ok
+# koa-ok
+
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
 
 Koa middleware providing a health check ping route that always returns a `200 OK` response.
 
@@ -35,4 +38,11 @@ app.listen(3000)
 
 ## License
 
-Copyright 2018 Digivizer Pty Ltd. See the `LICENSE` file included with this software distribution.
+Copyright 2018 Digivizer Pty Ltd.
+
+This project is open source under the terms of the ISC license. See the `LICENSE` file included with this software distribution for more information.
+
+[npm-image]: https://img.shields.io/npm/v/koa-ok.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/koa-ok
+[travis-image]: https://img.shields.io/travis/digivizer/koa-ok/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/digivizer/koa-ok
